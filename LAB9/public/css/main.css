@@ -1,0 +1,107 @@
+body {
+  background: #F4E1E3;
+}
+  
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 5px solid #E6C0E9;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+footer { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  border-top:  5px solid #E6C0E9
+} 
+
+h1 {
+  color: #A081B1;
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-family: American Typewriter, serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+p, label {
+  color: #787396;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: Andale Mono, monospace;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.note {
+  color: #787396;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: Andale Mono, monospace;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.is-prime {
+  color: #00E676;
+}
+
+.not-prime {
+  color: #FF3D00;
+}
+
+li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.text-goes-here {
+  color: #8D89A6;
+}
+
+#error-container {
+  margin: 10px;
+}
+
+.footerClass {
+  color: #A081B1;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: American Typewriter, serif;
+  font-weight: normal;
+}
+
+input[type=number] {
+  padding: 8px 10px;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  background-color: #8D89A6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: #8D89A6;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}

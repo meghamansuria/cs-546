@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-5",
+  "version": "1.0.0",
+  "description": "My lab 5 to create a server that provides data from an API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Megha Mansuria 10440306",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "My lab 6 to create a server for a book API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Megha Mansuria 10440306",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5"
+  }
+}
